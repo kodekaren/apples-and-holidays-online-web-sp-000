@@ -67,8 +67,6 @@ holiday_hash.each do |season, holiday|
      if holiday.value.include?("BBQ")
        puts holiday.to_a# return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-
 end
-
-
-
+end
+end
